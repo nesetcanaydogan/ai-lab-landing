@@ -42,30 +42,6 @@ src/
 - **Performance Optimized:** Utilizing Next.js Server Components (RSC) where possible and `use client` selectively for interactivity.
 - **Theme Support:** Intelligent theme detection and persistence.
 
-## 🛠️ Development
-
-### Getting Started
-
-1.  **Clone & Install:**
-    ```bash
-    git clone [repository-url]
-    npm install
-    ```
-
-2.  **Environment Setup:**
-    Ensure you have Node.js 18+ installed.
-
-3.  **Run Development Server:**
-    ```bash
-    npm run dev
-    ```
-
-4.  **Build for Production:**
-    ```bash
-    npm run build
-    npm start
-    ```
-
 ## 🔬 About KTUN AI Lab
 
 Founded in 2020, the KTUN AI Lab is a leading research hub focused on:
