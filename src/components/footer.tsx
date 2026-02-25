@@ -45,7 +45,7 @@ export default function Footer() {
               Konya Teknik Üniversitesi Yapay Zeka ve Veri Bilimi Laboratuvarı. Geleceğin akıllı dünyasını bugünden tasarlıyoruz.
             </p>
             <div className="flex gap-6">
-               {[Linkedin, Instagram, Twitter].map((Icon, i) => (
+               {[Linkedin, Instagram].map((Icon, i) => (
                  <a key={i} href="#" className="p-4 glass-dark rounded-2xl hover:bg-primary transition-all duration-500 shadow-xl border border-white/10">
                     <Icon size={24} />
                  </a>
@@ -70,25 +70,21 @@ export default function Footer() {
             <ul className="space-y-8 text-slate-400 text-lg font-medium">
                <li className="flex items-start gap-5 group">
                   <div className="p-3 glass-dark rounded-xl group-hover:bg-primary transition-colors duration-500"><MapPin size={24} className="text-white shrink-0" /></div>
-                  <span className="group-hover:text-white transition-colors">Konya Teknik Üniversitesi, Gelişim Yerleşkesi, Konya</span>
+                  <span className="group-hover:text-white transition-colors">Konya Teknik Üniversitesi, Mühendislik Fakültesi, D114, Konya</span>
                </li>
                <li className="flex items-center gap-5 group">
                   <div className="p-3 glass-dark rounded-xl group-hover:bg-primary transition-colors duration-500"><Mail size={24} className="text-white shrink-0" /></div>
-                  <span className="group-hover:text-white transition-colors">ailab@ktun.edu.tr</span>
-               </li>
-               <li className="flex items-center gap-5 group">
-                  <div className="p-3 glass-dark rounded-xl group-hover:bg-primary transition-colors duration-500"><Phone size={24} className="text-white shrink-0" /></div>
-                  <span className="group-hover:text-white transition-colors">+90 332 ... .. ..</span>
+                  <span className="group-hover:text-white transition-colors">ktunailab@gmail.com</span>
                </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-xs font-black mb-10 font-mono uppercase tracking-[0.4em] text-primary">Manifesto</h4>
+            <h4 className="text-xs font-black mb-10 font-mono uppercase tracking-[0.4em] text-secondary">İNOVASYON 2.0</h4>
             <div className="p-8 glass-dark rounded-[32px] border border-white/10 relative overflow-hidden group">
                <div className="absolute top-0 right-0 p-4 opacity-10"><ArrowUpRight size={40} /></div>
                <p className="text-slate-400 text-sm leading-relaxed italic font-bold">
-                 &quot;2020&apos;de bir fikir olarak başlayan yolculuğumuz, bugün milyonlarca liralık projeleri yöneten sürdürülebilir bir teknoloji merkezine dönüştü.&quot;
+                 &quot;2020&apos;de bir fikir olarak başlayan yolculuğumuz, bugün kapsamı geniş projeleri yöneten sürdürülebilir bir teknoloji merkezine dönüştü.&quot;
                </p>
             </div>
           </div>
