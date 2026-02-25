@@ -12,7 +12,7 @@ export default function WhyUs() {
     },
     {
       title: "Görünürlük & Güç",
-      desc: "Üretim kapasitemiz ve iletişim gücümüzle sektörde öne çıkıyoruz.",
+      desc: "Üretim kapasitemiz ve iletişim gücümüz sayesinde hızlı çözüm üretme yeteneğinimizle öne çıkıyoruz.",
       icon: <TrendingUp className="text-primary" />
     },
     {
@@ -68,7 +68,7 @@ export default function WhyUs() {
             <div className="aspect-square glass-dark rounded-[100px] p-2 relative z-10 shadow-[0_100px_150px_-40px_rgba(16,31,150,0.4)] overflow-hidden flex items-center justify-center">
                 <div className="text-center">
                    <div className="text-9xl font-black text-white font-exo2 tracking-tighter mb-4 animate-float">150+</div>
-                   <div className="text-xs font-black text-primary uppercase tracking-[0.5em]">Yıllık Başvuru</div>
+                   <div className="text-xs font-black text-secondary uppercase tracking-[0.5em]">Yıllık Başvuru</div>
                 </div>
                 {/* Floating Bubbles */}
                 <div className="absolute top-20 right-20 w-32 h-32 bg-primary/20 rounded-full blur-2xl animate-blob" />
@@ -77,7 +77,7 @@ export default function WhyUs() {
 
             <div className="absolute -top-12 -right-12 glass p-10 rounded-[40px] shadow-premium z-20 border border-white/40 animate-bounce-slow">
                <ShieldCheck size={48} className="text-primary mb-4" />
-               <div className="text-lg font-black font-exo2 tracking-tighter">GÜVENİLİR<br/>EKOSİSTEM</div>
+               <div className="text-lg font-black shadow-premium font-exo2 tracking-tighter">GÜVENİLİR<br/>EKOSİSTEM</div>
             </div>
           </motion.div>
         </div>

@@ -73,6 +73,9 @@ export default function About() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
                 <div className="absolute bottom-12 left-12 right-12">
+                   <div className="text-4xl font-exo2 font-black text-white opacity-5 mb-2 tracking-tighter">00000101</div>
+                   <div className="text-4xl font-exo2 font-black text-white opacity-5 mb-2 tracking-tighter">00000101</div>
+                   <div className="text-4xl font-exo2 font-black text-white opacity-10 mb-2 tracking-tighter">00000101</div>
                    <div className="text-4xl font-exo2 font-black text-white opacity-10 mb-2 tracking-tighter">00000101</div>
                    <div className="text-4xl font-exo2 font-black text-white opacity-20 mb-2 tracking-tighter">10001010</div>
                    <div className="text-4xl font-exo2 font-black text-white mb-2 opacity-40 tracking-tighter">00010001</div>

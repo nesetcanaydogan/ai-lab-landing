@@ -86,8 +86,8 @@ export default function Vision() {
            <div className="flex flex-wrap justify-center gap-16">
               {[
                 { label: "ACTIVE Agents Projects", val: "3" },
-                { label: "Tool-Calling Architecture", val: "Done" },
-                { label: "Multi-Agent Orchestration", val: "ENABLED" }
+                { label: "Tool-Calling Architecture", val: "Enabled" },
+                { label: "Multi-Agent Orchestration", val: "Enabled" }
               ].map((m, i) => (
                 <div key={i} className="flex flex-col items-center">
                    <div className="text-4xl font-black font-exo2 text-primary">{m.val}</div>
