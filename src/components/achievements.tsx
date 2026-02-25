@@ -7,17 +7,17 @@ export default function Achievements() {
   const stats = [
     { label: "TÜBİTAK 1711 Projesi", value: "3.5M+ ₺", sub: "Kestirimci Bakım & Verimlilik" },
     { label: "TÜBİTAK 1711 Projesi", value: "1M+ ₺", sub: "Yapay Zeka Destekli Finans" },
-    { label: "Aktif Proje Takımı", value: "16", sub: "Otonom Araçlar, İHA, Rover" },
+    { label: "Aktif Proje Takımı", value: "16", sub: "Otonom Araçlar, İHA, Rover, Robotaksi, Çözüm Yazılımları " },
     { label: "Toplam Başvuru", value: "150+", sub: "2025-2026 Dönemi" }
   ];
 
   const highlights = [
-    { title: "Sunum Özel Ödülü", category: "AI Lab Horizon", icon: <Award className="text-yellow-500" /> },
-    { title: "En İyi Yazılım Ödülü", category: "AI Lab NPC-AI", icon: <ShieldCheck className="text-blue-500" /> },
-    { title: "İşlemci Tasarım Ödülü", category: "KAPSÜL - 32 Bit İşlemci", icon: <Cpu className="text-orange-500" /> },
-    { title: "Tıbbi Atık Kutusu (İDEÇ)", category: "Yapay Zeka Destekli", icon: <Recycle className="text-green-500" /> },
-    { title: "Hackathon Birinciliği", category: "Niğde - Kimlik & Yüz Tanıma", icon: <TrendingUp className="text-primary" /> },
-    { title: "Teknofest Finalisti", category: "Ulaşımda Yapay Zeka", icon: <Rocket className="text-purple-500" /> }
+    { title: "TENOFEST - Sunum Özel Ödülü", category: "AI Lab Horizon", icon: <Award className="text-yellow-500" /> },
+    { title: "TEKNOFEST - En İyi Yazılım Ödülü", category: "AI Lab NPC-AI", icon: <ShieldCheck className="text-blue-500" /> },
+    { title: "9. KTMOPP - İşlemci Tasarım Ödülü", category: "KAPSÜL - 32 Bit İşlemci", icon: <Cpu className="text-orange-500" /> },
+    { title: "9. KTMOPP - Yapay Zeka Destekli Tıbbi Atık Kutusu", category: "İDEÇ, Mepsan, Türk Kadınlar Birliği Özel Ödülleri", icon: <Recycle className="text-green-500" /> },
+    { title: "Hackathon Birinciliği", category: "BÖLGESEL - Kimlik & Yüz Tanıma", icon: <TrendingUp className="text-primary" /> },
+    { title: "Teknofest Finalistliği", category: "Birden Fazla Takım ile", icon: <Rocket className="text-purple-500" /> }
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function Achievements() {
           >
             <div className="flex items-center gap-4 mb-8">
                <div className="w-12 h-[2px] bg-secondary rounded-full" />
-               <span className="text-xs font-black uppercase tracking-[0.4em] text-secondary">Milestones</span>
+               <span className="text-xs font-black uppercase tracking-[0.4em] text-secondary">MILESTONES</span>
             </div>
             <h2 className="text-6xl md:text-8xl font-exo2 font-black tracking-tighter leading-[0.85]">
                SOMUT <br/> <span className="text-gradient">ÇIKTILAR</span>
@@ -52,7 +52,7 @@ export default function Achievements() {
             transition={{ duration: 1 }}
             className="text-xl text-slate-500 max-w-md font-medium leading-relaxed"
           >
-            Fikir aşamasından sürdürülebilir bir teknoloji üretim yapısına evrilen başarı serüvenimiz.
+            Fikir aşamasından sürdürülebilir bir teknoloji üretim yapısına evrilen başarı serüvenimizden bazı kesitler.
           </motion.p>
         </div>
 
@@ -66,7 +66,7 @@ export default function Achievements() {
               transition={{ delay: i * 0.1, duration: 0.8 }}
               className="glass-card p-12 relative overflow-hidden group shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] border border-white/40"
             >
-              <div className="absolute -top-10 -right-10 w-32 h-32 bg-primary/5 rounded-full group-hover:scale-150 transition-transform duration-1000" />
+              <div className="absolute -top-20 -right-20 w-80 h-80 bg-primary/5 rounded-full group-hover:scale-150 transition-transform duration-1000" />
               <div className="text-[10px] font-black text-slate-400 mb-4 font-mono uppercase tracking-[0.2em]">{stat.label}</div>
               <div className="text-5xl font-black text-primary mb-3 group-hover:scale-110 transition-transform duration-500 tracking-tighter">{stat.value}</div>
               <div className="text-xs text-slate-500 font-black uppercase tracking-tighter opacity-60">{stat.sub}</div>
@@ -88,11 +88,11 @@ export default function Achievements() {
             
             <div className="flex items-center gap-4 mb-16">
                <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center shadow-xl shadow-primary/20">
-                  <Sparkles size={32} className="text-white animate-pulse" />
+                  <Sparkles size={36} className="text-white animate-pulse" />
                </div>
                <div>
                   <h3 className="text-3xl font-black font-exo2 tracking-tighter">Öne Çıkan Başarılar</h3>
-                  <p className="text-xs font-mono text-slate-500 uppercase tracking-widest font-bold">KTÜN AI LAB AWARDS 2026</p>
+                  <p className="text-xs font-mono text-slate-500 uppercase tracking-widest font-bold">KTUN AI LAB AWARDS COLLECTION</p>
                </div>
             </div>
 

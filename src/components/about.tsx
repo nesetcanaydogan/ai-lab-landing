@@ -14,7 +14,7 @@ export default function About() {
     {
       icon: <Lightbulb className="text-secondary" size={28} />,
       title: "Daimi İnovasyon",
-      text: "Mevcut olanı geliştirmiyor, Ar-Ge projeleri ile değer yaratmayı hedefliyoruz."
+      text: "Mevcut olanı geliştiriyor, Ar-Ge projeleri ile değer yaratmayı hedefliyoruz."
     }
   ];
 
@@ -45,7 +45,7 @@ export default function About() {
             <div className="grid sm:grid-cols-2 gap-8">
                {cards.map((card, i) => (
                  <div key={i} className="glass-card p-10 group relative overflow-hidden">
-                    <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-20 transition-opacity">
+                    <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-40 transition-opacity">
                        {card.icon}
                     </div>
                     <div className="mb-6">{card.icon}</div>
@@ -89,8 +89,8 @@ export default function About() {
                transition={{ duration: 4, repeat: Infinity }}
                className="absolute -top-12 -left-12 glass p-10 rounded-[40px] shadow-premium z-20 border border-white/40 max-w-[200px]"
              >
-                <Target size={40} className="text-secondary mb-4" />
-                <h4 className="font-black text-sm uppercase tracking-tighter mb-2">Misyon</h4>
+                <Target size={40} className="text-secondary mb-4 opacity-50" />
+                <h4 className="font-black text-sm uppercase tracking-tighter mb-2 text-shadow-lg">Misyon</h4>
                 <p className="text-[10px] text-primary font-bold leading-relaxed">Nitelikli insan kaynağını teknoloji ekosistemine kazandırmak.</p>
              </motion.div>
 
