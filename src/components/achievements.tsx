@@ -103,7 +103,7 @@ export default function Achievements() {
                     whileHover={{ y: -10, scale: 1.05 }}
                     className="flex flex-col gap-6 bg-white/60 dark:bg-slate-900/60 p-8 rounded-[32px] border border-white/60 shadow-xl backdrop-blur-3xl transition-all duration-500"
                  >
-                    <div className="p-4 bg-white dark:bg-slate-800 rounded-2xl w-fit shadow-inner">
+                    <div className="p-4 bg-white dark:bg-white-800 rounded-2xl w-fit shadow-inner">
                        {item.icon}
                     </div>
                     <div>
@@ -130,7 +130,7 @@ export default function Achievements() {
                   Yarışma başarısının ötesinde, TÜBİTAK destekli Ar-Ge projeleriyle donanım-yazılım bütünleşik sistemler geliştirerek ülkemizi küresel arenalarda temsil ediyoruz.
                 </p>
                 <div className="flex flex-wrap gap-3">
-                   {["URC", "ARC", "TEKNOFEST", "TÜBİTAK", "MEPSAN", "KAPSÜL", "IDEÇ"].map(tag => (
+                   {["URC", "ARC", "TEKNOFEST", "TÜBİTAK", "BAĞIMSIZ YARIŞMALAR", "SANAYİ PROJELERİ"].map(tag => (
                      <span key={tag} className="px-6 py-2 bg-white/10 text-white text-[10px] font-black rounded-full border border-white/20 hover:bg-white hover:text-primary transition-all duration-500 cursor-default uppercase tracking-widest">
                        {tag}
                      </span>
