@@ -8,7 +8,7 @@ export default function Vision() {
     {
       title: "AI Agents",
       desc: "Otonom karar alabilen ve çevresel bağlama uyum sağlayan akıllı ajanlar.",
-      icon: <Bot className="text-primary" size={28} />
+      icon: <Bot className="text-yellow-500" size={28} />
     },
     {
       title: "Agentic Systems",
@@ -47,7 +47,7 @@ export default function Vision() {
                  NEURAL <br/> <span className="text-gradient">HORIZONS</span>
               </h2>
               <p className="text-2xl text-slate-500 max-w-4xl mx-auto font-medium leading-relaxed italic opacity-80">
-                 &quot;Geleceği tahmin etmiyoruz, onu bizzat inşa ediyoruz. Otonom sistemlerin sınırlarını yapay zeka ile yeniden çiziyoruz.&quot;
+                 &quot;Otonom sistemlerin sınırlarını yapay zeka ile yeniden çiziyoruz.&quot;
               </p>
            </motion.div>
         </div>
@@ -85,9 +85,9 @@ export default function Vision() {
            </p>
            <div className="flex flex-wrap justify-center gap-16">
               {[
-                { label: "Active Agents", val: "10K+" },
-                { label: "Neural Nodes", val: "256" },
-                { label: "Latency", val: "<10ms" }
+                { label: "ACTIVE Agents Projects", val: "3" },
+                { label: "Tool-Calling Architecture", val: "Done" },
+                { label: "Multi-Agent Orchestration", val: "ENABLED" }
               ].map((m, i) => (
                 <div key={i} className="flex flex-col items-center">
                    <div className="text-4xl font-black font-exo2 text-primary">{m.val}</div>
