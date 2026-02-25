@@ -8,7 +8,7 @@ export default function Cooperation() {
     { title: "Ortak Ar-Ge", desc: "Ürün geliştirme ve inovasyon odaklı ortak projeler.", icon: <Microscope size={28} /> },
     { title: "Pilot Uygulama", desc: "Prototip test süreçleri ve saha uygulamaları.", icon: <Search size={28} /> },
     { title: "Teknik Danışmanlık", desc: "Sektör deneyimi ve akademik mentorluk paylaşımı.", icon: <FileCode size={28} /> },
-    { title: "Sponsorluk", desc: "Altyapı, donanım ve lojistik destek modelleri.", icon: <Handshake size={28} /> }
+    { title: "Sponsorluk", desc: "Altyapı, donanım ve lojistik destek modelleri paylaşımı.", icon: <Handshake size={28} /> }
   ];
 
   return (
@@ -23,13 +23,13 @@ export default function Cooperation() {
            >
               <div className="flex items-center gap-4 mb-8">
                  <div className="w-12 h-[2px] bg-primary rounded-full" />
-                 <span className="text-xs font-black uppercase tracking-[0.4em] text-primary">Partnerships</span>
+                 <span className="text-xs font-black uppercase tracking-[0.4em] text-primary">PARTNERSHIPS</span>
               </div>
               <h2 className="text-6xl md:text-8xl font-exo2 font-black tracking-tighter leading-none mb-12">
                  BİRLİKTE <br/> <span className="text-slate-400">GÜÇLÜYÜZ</span>
               </h2>
               <p className="text-xl text-slate-500 font-medium leading-relaxed mb-12">
-                 Esnek, sürdürülebilir ve çıktı odaklı modellerle sanayi-akademi köprüsünü yeniden inşa ediyoruz. Laboratuvarımız, vizyoner kurumlar için stratejik bir teknoloji ortağıdır.
+                 Esnek, sürdürülebilir ve çıktı odaklı modellerle sanayi-akademi köprüsünü yeniden inşa ediyoruz. Laboratuvarımız, vizyoner çözümler arayan kurumlar için stratejik bir teknoloji ortağıdır.
               </p>
               
               <div className="space-y-6">
@@ -60,7 +60,7 @@ export default function Cooperation() {
            >
               <div className="glass-card p-16 bg-slate-950 text-white border-none shadow-[0_80px_150px_-30px_rgba(0,0,0,0.6)] relative z-10">
                  <div className="absolute top-0 right-0 p-12">
-                    <Sparkles className="text-primary opacity-20 animate-spin-slow" size={120} />
+                    <Sparkles className="text-secondary opacity-20 animate-spin-slow" size={120} />
                  </div>
                  
                  <h3 className="text-4xl font-black mb-10 font-exo2 tracking-tighter">Sizden Ne Bekliyoruz?</h3>
@@ -71,11 +71,11 @@ export default function Cooperation() {
                  <div className="grid grid-cols-2 gap-8 mb-16">
                     <div>
                        <div className="text-2xl font-black font-exo2 mb-2">Maddi</div>
-                       <p className="text-xs text-slate-500 font-mono leading-relaxed">Ekipman, Yazılım Lisansları, Finansal Katkı</p>
+                       <p className="text-xs text-slate-500 font-mono leading-relaxed">Ekipman, Yazılım Lisansları, Finansal Katkı Destek Modelleri</p>
                     </div>
                     <div>
                        <div className="text-2xl font-black font-exo2 mb-2">Manevi</div>
-                       <p className="text-xs text-slate-500 font-mono leading-relaxed">Mentörlük, Sektör Deneyimi, Teknik Destek</p>
+                       <p className="text-xs text-slate-500 font-mono leading-relaxed">Mentörlük, Sektör Deneyimi, Teknik Destek Paylaşımı</p>
                     </div>
                  </div>
 
